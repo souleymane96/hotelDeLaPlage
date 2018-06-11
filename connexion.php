@@ -14,7 +14,7 @@ $lesChambres = $connexionPdo->getLesChambres();
             <div class="wrap-info">
                 <div class="information">
                     <h1  class="animated fadeInDown">Hotel de la Plage</h1>
-                    <p class="animated fadeInUp">Site de réservation des chambres de l'Hotel de la Plage</p>
+                    <p class="animated fadeInUp">Connexion</p>
                 </div>
             </div>
         </div>
@@ -28,16 +28,16 @@ $lesChambres = $connexionPdo->getLesChambres();
             <div class="row">
                 <div class="col-sm-7 col-md-8">
                     <h3>Connexion</h3>
-                    <form method="POST" role="form" class="wowload fadeInRight" action="confirmation.php">
+                    <form method="POST" role="form" class="wowload fadeInRight" action="connexion.php">
                         <div class="form-group">
                             <input type="text" name="login" class="form-control"  placeholder="Login">
                         </div>
 
                         <div class="form-group">
-                            <input type="text" name="motDePass" class="form-control"  placeholder="Mot de passe">
+                            <input type="text" name="motDePasse" class="form-control"  placeholder="Mot de passe">
                         </div>
                         <button class="btn btn-default" type="submit">Connexion</button>
-                        <button class="btn btn-default"><a href="inscription.php" style="color: white;">Inscription</a></button>
+                        <button class="btn btn-default" href="inscription.php"><a href="inscription.php" style="color: white;">Inscription</a></button>
                     </form>
                 </div>
             </div>
