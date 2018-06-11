@@ -68,6 +68,7 @@
         <li><a href="rooms-tariff.php">Réservation</a></li>
         <li><a href="gallery.php">Gallerie</a></li>
         <li><a href="contact.php">Contact</a></li>
+        <li><a href="connexion.php">Connexion</a></li>
       </ul>
     </div><!-- Wnavbar-collapse -->
   </div>
